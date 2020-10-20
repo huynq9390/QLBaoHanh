@@ -25,10 +25,10 @@ const styles = StyleSheet.create({
         color: 'white',
         marginLeft: 10,
         marginRight: 10,
-        marginTop: 25,
+        marginTop: 20,
     },
     textbox: {
-        height: 36,
+        height: 40,
         padding: 10,
         marginTop: 5,
         marginLeft: 10,
@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
         backgroundColor: 'white',
     },
     button: {
-        marginTop: 45,
+        marginTop: 40,
         marginLeft: 10,
         marginRight: 10,
         alignItems: "center",
@@ -84,6 +84,34 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between',
         paddingVertical: 12,
         paddingHorizontal: 16,
+    },
+    searchSection: {
+        flex: 1,
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: 40,
+        marginTop: 5,
+        marginLeft: 10,
+        marginRight: 10,
+        fontSize: 14,
+        borderWidth: 1,
+        borderRadius: 10,
+        borderColor: '#48BBEC',
+        backgroundColor: 'white',
+    },
+    searchIcon: {
+        padding: 10,
+    },
+    searchInput: {
+        flex: 1,
+        paddingTop: 10,
+        paddingRight: 10,
+        paddingBottom: 10,
+        paddingLeft: 0,
+        backgroundColor: '#fff',
+        color: 'black',
+        marginRight: 10
     },
 });
 export default styles;
