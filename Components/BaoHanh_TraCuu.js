@@ -26,7 +26,7 @@ export default class BaoHanh_TraCuu extends Component {
     }
 
     searchSerial = () => {
-        debugger;
+        //debugger;
         const { dataSource } = this.state;
         var id = '';
         if (this.validateSerial()) {
@@ -82,6 +82,8 @@ export default class BaoHanh_TraCuu extends Component {
                     <TextInput numberOfLines={10} multiline={true} value={this.state.id}></TextInput>
                     {/* <Text > {this.state.id}</Text> */}
                 </View>
+
+                
             </ScrollView>
         )
     }
